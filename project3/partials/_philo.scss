@@ -1,0 +1,195 @@
+.philo{
+   h2{
+     padding-bottom: 7px;                
+   }
+
+   p{
+   letter-spacing:5px;
+   text-align: justify                 
+   }
+
+   h4{
+   font-weight: bold; 
+   text-transform: uppercase; 
+   color: silver;
+   &::first-letter
+     {
+      font-size:150%;
+      color: black;
+     }                    
+   }
+   img {
+     position: relative;
+     text-align: center;
+     width:400px;
+     border-width:10px 10px;
+     border-style:solid solid;
+     border-color: silver black;
+     border-radius: 15px;
+   }
+         h4 {
+               position: absolute;
+               bottom: 20px;
+               left: 130px;
+            }
+           
+}
+
+
+
+
+/* Media queries*/
+
+/* Responsive for laptop*/
+@media(max-width: 992px)
+{
+}
+
+/* Responsive for Medium- tablet*/
+@media(max-width: 840px)
+{
+  
+  .philo{
+
+    h2{
+      font-size: x-large;
+      padding-bottom: 7px;                
+    }
+ 
+    p{
+    letter-spacing:0px;
+    text-align: justify                 
+    }
+ 
+    h4{
+    font-weight: bold; 
+    text-transform: uppercase; 
+    color: silver;
+    &::first-letter
+      {
+       font-size:150%;
+       color: black;
+      }                    
+    }
+    .imgft{
+      margin-top:20px;
+      margin-left:100px;}
+
+    img {
+      position: relative;
+      text-align: center;
+      width: 300px;
+      height: 250px;
+      border-width:10px 10px;
+      border-style:solid solid;
+      border-color: silver black;
+      border-radius: 15px;
+      
+      
+    }
+          h4 {
+                position: absolute;
+                font-size: 15px;
+                margin-bottom: 30px;
+                padding-right: 40px;
+                 }
+  }
+ 
+}
+
+/* Responsive for Small*/
+@media(max-width: 576px)
+{
+  .philo{
+    h2{
+      font-size: x-large;
+      padding-bottom: 7px;                
+    }
+ 
+    p{
+    letter-spacing:0px;
+    text-align: justify;
+                
+    }
+ 
+    h4{
+    font-weight: bold; 
+    text-transform: uppercase; 
+    color: silver;
+    &::first-letter
+      {
+       font-size:150%;
+       color: black;
+      }                    
+    }
+    img {
+      margin-top: 10px;
+      position: relative;
+      text-align: center;
+      width: 320px;
+      height: 300px;
+      border-width:10px 10px;
+      border-style:solid solid;
+      border-color: silver black;
+      border-radius: 15px;
+      
+    }
+          h4 {
+                position: absolute;
+                font-size: 15px;
+                margin-bottom: 20px;
+                padding-right: 30px;
+                 }
+                }
+              
+}
+
+
+@media(max-width: 454px)
+{.philo{
+
+  h2{
+    font-size: x-large;
+    padding-bottom: 7px;                
+  }
+
+  p{
+  letter-spacing:0px;
+  text-align: justify                 
+  }
+
+  h4{
+  font-weight: bold; 
+  text-transform: uppercase; 
+  color: silver;
+  &::first-letter
+    {
+     font-size:150%;
+     color: black;
+    }                    
+  }
+  .imgft{
+    margin-top:20px;
+    margin-left:5px;}
+
+  img {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+    border-width:10px 10px;
+    border-style:solid solid;
+    border-color: silver black;
+    border-radius: 15px;
+    
+    
+  }
+        h4 {
+              position: absolute;
+              font-size: 15px;
+              margin-bottom: 30px;
+              padding-right: 40px;
+               }
+}
+            
+}

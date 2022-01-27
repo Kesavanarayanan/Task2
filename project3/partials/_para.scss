@@ -1,0 +1,43 @@
+.para{
+   p{
+                    color:slategrey;
+                    line-height: 30px;
+                    font-weight: bold;  
+                    text-align: justify;
+                    &::first-letter
+                    {
+                    font-size:200%;
+                    color: black;
+                    } 
+   }
+   
+} 
+
+
+/* Media queries*/
+@media(max-width: 992px)
+{
+}
+
+@media(max-width: 840px)
+{
+
+}
+
+@media(max-width: 576px)
+{
+  .para{ 
+       margin-bottom: -25px;  
+   p{
+      color:slategrey;
+      line-height: 25px;
+      font-size: 15px;  
+      text-align: justify;
+      &::first-letter
+      {
+      font-size:200%;
+      color: black;
+      } 
+}
+  }
+}
